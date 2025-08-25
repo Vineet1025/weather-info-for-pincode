@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "36de0091-88a9-4c56-bff3-0cc9b1b748a8",
+		"name": "weather using pincode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36255366"
+	},
+	"item": [
+		{
+			"name": "weather by pincode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pincode\": \"472010\", \r\n  \"date\": \"2025-08-23\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/weather",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"weather"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
